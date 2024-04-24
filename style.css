@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #CE7E7E;
+
+    font-family: "Rubik", sans-serif;
+}
+
+.corpo {
+    background: #2D2A37;
+
+    width: 366px;
+    height: 566px;
+
+    border-radius: 20px;
+
+    box-shadow: 1px 15px 50px;
+}
+
+.calculadora {
+    padding: 54px 32px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.igual {
+    background: linear-gradient(180deg, hsla(14, 51%, 46%, 1) 0%, hsla(0, 45%, 65%, 1) 1%);
+}
+
+.teclas {
+
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    
+    
+
+    padding: 49px;
+    padding-top: 120px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr  ;
+    
+    gap: 12px;
+    
+}
+
+.teclas button{
+    color: white;
+
+    width: 64px;
+    height: 64px;
+
+    font-size: 20px;
+    
+    border-radius: 20px ;
+
+    cursor:pointer;
+
+    border: solid 1px black;
+}
+
+.div:hover, .multi:hover, .subt:hover, .soma:hover {
+    color: black;
+}
+
+button:hover {
+    color: brown;
+}
+
+.visor .hist {
+    display: grid;
+    justify-content: flex-end;
+
+    grid-area:auto;
+
+    letter-spacing: 5px;
+
+    position: relative;
+    top: 45px;
+    left: 75px;
+    
+
+    font-size: 20px;
+    width: 248px;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+
+    color: #6B6B6B;
+    opacity: 0.5;
+
+    
+}
+
+.result {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 225px;
+
+    position: relative;
+    top: 70px;
+    left: 45px;
+
+    font-size: 30px;
+    width: 248px;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+
+
+}
+
+h2 {
+    color: white;
+
+}
+
+p {
+    color: #6B6B6B;
+    opacity: 0.5;
+}
+
+.div, .multi, .subt, .soma {
+    background: brown;
+}
+
+
+button {
+    background: #2D2A37;
+
+    box-shadow: 1px 20px 50px black;
+}
+
