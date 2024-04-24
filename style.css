@@ -18,7 +18,7 @@ body {
 
     border-radius: 20px;
 
-    box-shadow: 1px 15px 50px;
+    box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.22) inset; 
 }
 
 .calculadora {
@@ -30,7 +30,7 @@ body {
 }
 
 .igual {
-    background: linear-gradient(180deg, hsla(14, 51%, 46%, 1) 0%, hsla(0, 45%, 65%, 1) 1%);
+    background: linear-gradient(0deg, #E24545 0%, #E24545 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%); box-shadow: 0px 2px 3px rgba(255, 255, 255, 0.10) inset;
 }
 
 .teclas {
@@ -67,7 +67,7 @@ body {
     border: solid 1px black;
 }
 
-.div:hover, .multi:hover, .subt:hover, .soma:hover {
+.div:hover, .multi:hover, .subt:hover, .soma:hover, .igual:hover {
     color: black;
 }
 
@@ -129,13 +129,13 @@ p {
 }
 
 .div, .multi, .subt, .soma {
-    background: brown;
+    background: linear-gradient(0deg, #782828 0%, #782828 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
 }
 
 
 button {
-    background: #2D2A37;
+    background: linear-gradient(0deg, #2D2A37 0%, #2D2A37 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
 
     box-shadow: 1px 20px 50px black;
-}
+} 
 
